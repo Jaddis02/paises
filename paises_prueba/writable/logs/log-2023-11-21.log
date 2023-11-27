@@ -1,0 +1,24 @@
+CRITICAL - 2023-11-21 09:06:44 --> A function with return type must return a value
+in APPPATH\Controllers\paises.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 09:06:45 --> A function with return type must return a value
+in APPPATH\Controllers\paises.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 09:06:55 --> A function with return type must return a value
+in APPPATH\Controllers\paises.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 09:06:56 --> A function with return type must return a value
+in APPPATH\Controllers\paises.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 09:07:04 --> A function with return type must return a value
+in APPPATH\Controllers\paises.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 09:08:18 --> Invalid file: "content/coches.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/coches.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('content/coches', [], true)
+ 3 APPPATH\Controllers\paises.php(14): view('content/coches')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->paises()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
